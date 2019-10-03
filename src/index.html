@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SampleHeavyUIAngularApp</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- CSS property to place div 
+        side by side -->
+  <style>
+    div.scroll {
+      height: 300px;
+      overflow-y: scroll;
+    }
+
+    #leftbox {
+      float: left;
+      background: Red;
+      width: 25%;
+      height: 700px;
+      overflow-y: scroll;
+    }
+
+    #middlebox {
+      float: left;
+      background: Green;
+      width: 50%;
+      height: 700px;
+      overflow: auto;
+    }
+
+    #rightbox {
+      float: right;
+      background: blue;
+      width: 25%;
+      height: 700px;
+      overflow-y: scroll;
+    }
+
+    h1 {
+      color: green;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <my-app></my-app>
+</body>
+
+</html>
